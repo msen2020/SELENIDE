@@ -2,10 +2,8 @@ package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
-import utilities.BrowserUtilities;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Condition.*;
 
 public class US_001_navigation_StepD {
     @Given("the user navigates to {string}")
