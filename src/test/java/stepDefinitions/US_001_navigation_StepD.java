@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import com.codeborne.selenide.Configuration;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 
@@ -11,7 +12,7 @@ public class US_001_navigation_StepD {
         open(string);
     }
 
-//    @Test
+//    @TestSelenide
 //    public void userCanLoginByUsername() {
 //        open("/login");
 //        $(By.name("user.name")).setValue("johny");
@@ -20,8 +21,8 @@ public class US_001_navigation_StepD {
 //        $("#username").shouldHave(text("Hello, Johny!")); // Waits until element gets text
 //    }
 
-    @And("the user waits fo {int} seconds")
-    public void theUserWaitsFoSeconds(int int1) {
+    @And("the user waits for {int} seconds")
+    public void theUserWaitsForSeconds(int int1) {
         sleep(int1* 1000L); //standard 4 seconds wait from Selenide
     }
 
@@ -42,6 +43,6 @@ public class US_001_navigation_StepD {
 
     @And("the user holds the browser open")
     public void theUserHoldsTheBrowserOpen() {
-
+        Configuration.holdBrowserOpen = false;
     }
 }
