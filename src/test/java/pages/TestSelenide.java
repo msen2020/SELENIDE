@@ -16,6 +16,8 @@ public class TestSelenide extends CommonPage{
     public SelenideElement checkbox1 = $(By.id("box1"));
     public SelenideElement checkbox2 = $(By.id("box2"));
     public SelenideElement red = $(By.id("red"));
+    public SelenideElement football = $(By.id("football"));
+    public SelenideElement water_polo = $(By.id("water_polo"));
 
 
 }

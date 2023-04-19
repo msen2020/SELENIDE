@@ -13,10 +13,14 @@ Feature: CheckBox test
     And the user waits for 5 seconds
     And the user holds the browser open
 
+    @radio
   Scenario: TC_02 Radio Button test
     Given the user navigates to "https://testcenter.techproeducation.com/index.php?page=radio-buttons"
-    And the user waits for 5 seconds
+    And the user waits for 3 seconds
     And the user selects the "Red"
+    And the user waits for 3 seconds
+    And the user selects the "Football"
+    And the user selects the "Water Polo"
     And the user holds the browser open
 
 

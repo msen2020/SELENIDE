@@ -31,5 +31,13 @@ public class US_003_checkBox extends CommonPage {
             test().red.click();
             test().red.shouldBe(Condition.checked);
         }
+        if (text.equals("Football") && !test().football.isSelected()) {
+            test().football.click();
+            test().football.shouldBe(Condition.checked);
+        }
+        if (text.equals("Water Polo") && !test().water_polo.isSelected()) {
+            test().water_polo.click();
+            test().water_polo.shouldBe(Condition.checked);
+        }
     }
 }
