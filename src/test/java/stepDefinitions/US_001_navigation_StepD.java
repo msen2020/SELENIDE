@@ -12,7 +12,7 @@ public class US_001_navigation_StepD {
         open(string);
     }
 
-//    @TestSelenide
+//    @TestPage
 //    public void userCanLoginByUsername() {
 //        open("/login");
 //        $(By.name("user.name")).setValue("johny");
@@ -43,6 +43,6 @@ public class US_001_navigation_StepD {
 
     @And("the user holds the browser open")
     public void theUserHoldsTheBrowserOpen() {
-        Configuration.holdBrowserOpen = false;
+        Configuration.holdBrowserOpen = true;
     }
 }

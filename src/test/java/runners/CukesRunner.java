@@ -13,9 +13,9 @@ import org.junit.runner.RunWith;
                 "rerun:target/reports/rerun.txt"
         },
         monochrome = true,
-        features = "./src/US_002_locators/resources/features",
+        features = "src/test/resources/features",
         glue = {"stepDefinitions"},
-        tags = "@checkbox"
+        tags = "@alert"
 )
 public class CukesRunner {
 }
