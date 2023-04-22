@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         features = "src/test/resources/features",
         glue = {"stepDefinitions"},
-        tags = "@alert"
+        tags = "@iframe"
 )
 public class CukesRunner {
 }
