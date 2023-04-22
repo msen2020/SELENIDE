@@ -7,7 +7,6 @@ import io.cucumber.java.en.When;
 import pages.CommonPage;
 
 import static com.codeborne.selenide.Selenide.sleep;
-import static com.codeborne.selenide.Selenide.*;
 
 public class US_003_login extends CommonPage {
 

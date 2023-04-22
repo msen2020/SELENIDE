@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import com.codeborne.selenide.Condition;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import pages.CommonPage;
