@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class US_003_login extends CommonPage {
 
-    @Given("the user navigates to TestSelenide page")
+    @Given("the user navigates to TestPage page")
     public void theUserNavigatesToTestPage() {
 
     }

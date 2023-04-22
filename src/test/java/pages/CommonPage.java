@@ -9,7 +9,7 @@ public abstract class CommonPage {
 
         private A0_LoginLogout loginLogout;
         private A1_SignUp signUp;
-        private TestSelenide test;
+        private TestPage test;
 
         public A0_LoginLogout loginLogout() {
             if (loginLogout == null) {
@@ -25,9 +25,9 @@ public abstract class CommonPage {
             return signUp;
         }
 
-    public TestSelenide test() {
+    public TestPage test() {
         if (test == null) {
-            test = new TestSelenide();
+            test = new TestPage();
         }
         return test;
     }

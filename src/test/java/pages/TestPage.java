@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class TestSelenide extends CommonPage{
+public class TestPage extends CommonPage{
 
 
     public SelenideElement userName = $(By.id("exampleInputEmail1"));
@@ -18,6 +18,17 @@ public class TestSelenide extends CommonPage{
     public SelenideElement red = $(By.id("red"));
     public SelenideElement football = $(By.id("football"));
     public SelenideElement water_polo = $(By.id("water_polo"));
+
+    //dropDown elements
+    public SelenideElement year = $(By.id("year"));
+    public SelenideElement month = $(By.id("month"));
+    public SelenideElement day = $(By.id("day"));
+
+    //Alerts
+    public SelenideElement jSPromptButton = $(By.xpath("//button[@onclick='jsPrompt()']"));
+    public SelenideElement resultText = $("#result");
+
+
 
 
 }
