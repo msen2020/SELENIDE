@@ -1,15 +1,12 @@
 package stepDefinitions;
 
-import com.codeborne.selenide.Configuration;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import org.junit.Assert;
 import pages.CommonPage;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.switchTo;
 import static com.codeborne.selenide.WebDriverRunner.url;
-import static stepDefinitions.Hooks.driver;
 
 public class US_006_iframe extends CommonPage {
 
