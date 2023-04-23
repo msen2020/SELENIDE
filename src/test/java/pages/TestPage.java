@@ -28,6 +28,10 @@ public class TestPage extends CommonPage{
     public SelenideElement jSPromptButton = $(By.xpath("//button[@onclick='jsPrompt()']"));
     public SelenideElement resultText = $("#result");
 
+    //iframe
+    public SelenideElement iframeText = $(By.xpath("//h3['iframe']"));
+    public SelenideElement techProLink = $(By.xpath("//a[@type='button']"));
+
 
 
 
