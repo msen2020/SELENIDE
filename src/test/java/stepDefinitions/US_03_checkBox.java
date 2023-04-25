@@ -5,7 +5,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import pages.CommonPage;
 
-public class US_003_checkBox extends CommonPage {
+public class US_03_checkBox extends CommonPage {
 
     @Then("the user verifies that the text Checkboxes is visible")
     public void theUserVerifiesThatTheTextCheckboxesIsVisible() {

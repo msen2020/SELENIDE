@@ -6,9 +6,8 @@ import io.cucumber.java.en.When;
 import pages.CommonPage;
 
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.*;
 
-public class US_002_locators extends CommonPage {
+public class US_02_locators extends CommonPage {
 
     @And("the user inputs a username")
     public void theUserInputsAUsername() {

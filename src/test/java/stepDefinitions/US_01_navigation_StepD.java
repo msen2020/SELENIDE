@@ -6,7 +6,7 @@ import io.cucumber.java.en.Given;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class US_001_navigation_StepD {
+public class US_01_navigation_StepD {
     @Given("the user navigates to {string}")
     public void theUserNavigatesTo(String string) {
         open(string);

@@ -28,8 +28,15 @@ public class TestPage extends CommonPage{
     public SelenideElement jSPromptButton = $(By.xpath("//button[@onclick='jsPrompt()']"));
     public SelenideElement resultText = $("#result");
 
+    //iframe
+    public SelenideElement iframeText = $(By.xpath("//h3['iframe']"));
+    public SelenideElement techProLink = $(By.xpath("//a[@type='button']"));
 
 
+    //Actions
+
+    public SelenideElement targetElement = $(By.xpath("//div[@class='ui-widget-content ui-draggable ui-draggable-handle']"));
+    public SelenideElement targetPoint = $(By.xpath("//div[@class='ui-widget-header ui-droppable']"));
 
 }
 
