@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.sleep;
 import static com.codeborne.selenide.Selenide.switchTo;
 
-public class US_005_alerts extends CommonPage {
+public class US_05_alerts extends CommonPage {
 
     @And("the user clicks the button Click for JS Prompt")
     public void theUserClicksTheButtonAlertPrompt() {

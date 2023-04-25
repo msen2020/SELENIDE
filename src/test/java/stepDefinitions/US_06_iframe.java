@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.switchTo;
 import static com.codeborne.selenide.WebDriverRunner.url;
 
-public class US_006_iframe extends CommonPage {
+public class US_06_iframe extends CommonPage {
 
     @Then("the user verifies that the text iframe is visible")
     public void theUserVerifiesThatTheTextIframeIsVisible() {
