@@ -23,6 +23,7 @@ public class US_07_actions extends CommonPage {
     public void theUserVerifiesTheTargetElementMovedToByCoordinates(int arg0, int arg1) {
         String styleValue = test().targetElement.getAttribute("Style");
         System.out.println(styleValue);
+        assert styleValue != null;
         Assert.assertTrue(styleValue.contains(String.valueOf(arg0)) && styleValue.contains(String.valueOf(arg1)));
     }
 }
