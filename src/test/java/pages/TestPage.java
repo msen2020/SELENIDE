@@ -38,5 +38,9 @@ public class TestPage extends CommonPage{
     public SelenideElement targetElement = $(By.xpath("//div[@class='ui-widget-content ui-draggable ui-draggable-handle']"));
     public SelenideElement targetPoint = $(By.xpath("//div[@class='ui-widget-header ui-droppable']"));
 
+    // Waits
+    public SelenideElement startButton = $(By.xpath("//div[@id='start']//button"));
+    public SelenideElement helloWorldText = $(By.xpath("//div[@id='finish']"));
+
 }
 
