@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import com.codeborne.selenide.Condition;
 import io.cucumber.java.en.And;
 import pages.CommonPage;
 
@@ -9,7 +8,6 @@ import java.time.Duration;
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.executeJavaScript;
-import static com.codeborne.selenide.Selenide.screenshot;
 
 public class US_11_javaScriptExecutor extends CommonPage {
 

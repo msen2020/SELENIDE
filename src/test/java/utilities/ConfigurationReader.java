@@ -21,6 +21,7 @@ public class ConfigurationReader {
             // fileInputStream'dan ürettiğim file dosyası burada, bunu kullanabilirsin
             properties.load(file);
         }catch (Exception e){
+            System.out.println("You'd better check it out here");
         }
     }
 

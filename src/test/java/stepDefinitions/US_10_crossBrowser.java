@@ -1,14 +1,8 @@
 package stepDefinitions;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import pages.CommonPage;
-
-import java.time.Duration;
-
-import static com.codeborne.selenide.Selenide.screenshot;
 
 public class US_10_crossBrowser extends CommonPage {
 
