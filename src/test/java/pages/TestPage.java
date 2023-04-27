@@ -42,5 +42,13 @@ public class TestPage extends CommonPage{
     public SelenideElement startButton = $(By.xpath("//div[@id='start']//button"));
     public SelenideElement helloWorldText = $(By.xpath("//div[@id='finish']"));
 
+    //Screenshots
+    public SelenideElement img = $(By.xpath("//img[@src='/img/hipaa-compliance.webp']"));
+
+    //JSExecuter
+    public SelenideElement faqLink = $(By.xpath("//a[@href='/faq']"));
+
+
+
 }
 

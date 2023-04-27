@@ -14,6 +14,11 @@ import java.util.Date;
 public class Hooks {
 
     public static CommonPage commonPage;
+    public static boolean isHeadless = false;
+    public static boolean isFullScreen = true;
+    public static int width;
+    public static int height;
+
     private static final String BASE_URL = "https://testcenter.techproeducation.com/";
 
     @BeforeMethod(alwaysRun = true)
